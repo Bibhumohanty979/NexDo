@@ -1,1 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NexDo | Your Smart Task Manager</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- ================= LOGIN ================= -->
+
+    <section class="login-screen" id="loginScreen">
+
+        <div class="login-card">
+
+            <div class="login-logo">
+
+                <i class="fa-solid fa-list-check"></i>
+
+                <h1>NexDo</h1>
+
+            </div>
+
+            <p>Your Smart Task Manager</p>
+
+            <input
+                type="text"
+                id="username"
+                placeholder="Enter your name">
+
+            <button id="loginBtn">
+
+                <i class="fa-solid fa-right-to-bracket"></i>
+
+                Login
+
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- ================= MAIN APP ================= -->
+
+    <div class="container">
+
+        <!-- Sidebar -->
+
+        <aside class="sidebar">
+
+            <div class="logo">
+
+                <i class="fa-solid fa-list-check"></i>
+
+                <h2>NexDo</h2>
+
+            </div>
+
+            <ul>
+
+                <li class="active" id="dashboardBtn">
+
+                    <i class="fa-solid fa-house"></i>
+
+                    Dashboard
+
+                </li>
+
+                <li id="allTaskBtn">
+
+                    <i class="fa-solid fa-list"></i>
+
+                    All Tasks
+
+                </li>
+
+                <li id="todayBtn">
+
+                    <i class="fa-solid fa-calendar-day"></i>
+
+                    Today's Tasks
+
+                </li>
+
+                <li id="importantBtn">
+
+                    <i class="fa-solid fa-star"></i>
+
+                    Important
+
+                </li>
+
+                <li id="completedBtn">
+
+                    <i class="fa-solid fa-circle-check"></i>
+
+                    Completed
+
+                </li>
+
+                <li id="trashBtn">
+
+                    <i class="fa-solid fa-trash"></i>
+
+                    Trash
+
+                </li>
+
+                <li id="settingsBtn">
+
+                    <i class="fa-solid fa-gear"></i>
+
+                    Settings
+
+                </li>
+
+            </ul>
+
+        </aside>
+
+        <!-- ================= MAIN ================= -->
+
+        <main class="main">
+
+            <!-- Header -->
+
+            <header>
+
+                <div>
+
+                    <h1>Dashboard</h1>
+
+                    <p id="welcomeText">
+
+                        Welcome 👋
+
+                    </p>
+
+                </div>
+
+                <div class="header-right">
+
+                    <button id="themeBtn">
+
+                        🌙
+
+                    </button>
+
+                    <!-- Profile -->
+
+                    <div class="profile">
+
+                        <button id="profileBtn">
+
+                            <i class="fa-solid fa-circle-user"></i>
+
+                        </button>
+
+                        <div class="profile-menu" id="profileMenu">
+
+                            <p id="profileName">
+
+                                User
+
+                            </p>
+
+                            <hr>
+
+                            <button id="logoutBtn">
+
+                                <i class="fa-solid fa-right-from-bracket"></i>
+
+                                Logout
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </header>
+
+            <!-- Dashboard Cards -->
+
+            <section class="cards">
+
+                <div class="card">
+
+                    <i class="fa-solid fa-list"></i>
+
+                    <h3>Total Tasks</h3>
+
+                    <h2 id="totalTask">0</h2>
+
+                </div>
+
+                <div class="card">
+
+                    <i class="fa-solid fa-circle-check"></i>
+
+                    <h3>Completed</h3>
+
+                    <h2 id="completedTask">0</h2>
+
+                </div>
+
+                <div class="card">
+
+                    <i class="fa-solid fa-clock"></i>
+
+                    <h3>Pending</h3>
+
+                    <h2 id="pendingTask">0</h2>
+
+                </div>
+
+                <div class="card">
+
+                    <i class="fa-solid fa-star"></i>
+
+                    <h3>Important</h3>
+
+                    <h2 id="importantTask">0</h2>
+
+                </div>
+
+            </section>
+
+            <!-- Progress -->
+
+            <section class="progress-section">
+
+                <div class="progress-text">
+
+                    <span>Today's Progress</span>
+
+                    <span id="progressPercent">
+
+                        0%
+
+                    </span>
+
+                </div>
+
+                <div class="progress">
+
+                    <div class="progress-bar" id="progressBar"></div>
+
+                </div>
+
+            </section>
+
+            <!-- Add Task -->
+
+            <section class="task-form">
+
+                <input
+                    type="text"
+                    id="taskInput"
+                    placeholder="Enter task title">
+
+                <select id="category">
+
+                    <option>Work</option>
+                    <option>Study</option>
+                    <option>Personal</option>
+                    <option>Shopping</option>
+                    <option>Health</option>
+                    <option>Others</option>
+
+                </select>
+
+                <select id="priority">
+
+                    <option>High</option>
+                    <option>Medium</option>
+                    <option>Low</option>
+
+                </select>
+
+                <input
+                    type="date"
+                    id="dueDate">
+
+                <button id="addTaskBtn">
+
+                    <i class="fa-solid fa-plus"></i>
+
+                    Add Task
+
+                </button>
+
+            </section>
+
+            <!-- Search -->
+
+            <section class="search-box">
+
+                <input
+                    type="text"
+                    id="searchTask"
+                    placeholder="Search your tasks...">
+
+            </section>
+
+            <!-- Task List -->
+
+            <section id="taskContainer">
+
+                <!-- Tasks will appear here -->
+
+            </section>
+
+        </main>
+
+    </div>
+
+    <!-- Toast Notification -->
+
+    <div id="toast" class="toast"></div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -61,21 +61,41 @@ Login Screen
 
 <img width="1897" height="1010" alt="Image" src="https://github.com/user-attachments/assets/72782c65-8f5e-4bb9-a014-bf2e278425e4" />
 
+
+
+
+
 Dashboard
 
 <img width="1907" height="1010" alt="Image" src="https://github.com/user-attachments/assets/5f25a074-3206-431f-949a-ef7b6b474dd1" />
+
+
+
+
 
 Today's Task
 
 <img width="1910" height="1010" alt="Image" src="https://github.com/user-attachments/assets/75be258c-ec33-4b6a-a4fa-b8472caf6ed4" />
 
+
+
+
+
 Completed Tasks
 
 <img width="1917" height="1007" alt="Image" src="https://github.com/user-attachments/assets/f4796fa6-6219-4800-9edf-ccd44b311761" />
 
+
+
+
+
 Dark Mode
 
 <img width="1912" height="1012" alt="Image" src="https://github.com/user-attachments/assets/edf8269f-344c-4e77-a588-a0dbcff53dc1" />
+
+
+
+
 
 Trash
 

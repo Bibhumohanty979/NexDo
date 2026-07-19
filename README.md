@@ -55,7 +55,7 @@ Developed a responsive task management web application that enables users to cre
 
 ----  
 
-📸 Screenshots
+📸 Screenshots of the NexDo application are given below:-
 
 Login Screen
 

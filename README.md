@@ -59,24 +59,24 @@ Developed a responsive task management web application that enables users to cre
 
 Login Screen
 
-"C:\Users\bibhu\Downloads\NexDo Screenshots\Trash.png")
+<img width="1897" height="1010" alt="Image" src="https://github.com/user-attachments/assets/72782c65-8f5e-4bb9-a014-bf2e278425e4" />
 
 Dashboard
 
-![Dashboard](screenshots/02-dashboard.png)
+<img width="1907" height="1010" alt="Image" src="https://github.com/user-attachments/assets/5f25a074-3206-431f-949a-ef7b6b474dd1" />
 
-Add Task
+Today's Task
 
-![Add Task](screenshots/03-add-task.png)
+<img width="1910" height="1010" alt="Image" src="https://github.com/user-attachments/assets/75be258c-ec33-4b6a-a4fa-b8472caf6ed4" />
 
 Completed Tasks
 
-![Completed Tasks](screenshots/04-completed-tasks.png)
+<img width="1917" height="1007" alt="Image" src="https://github.com/user-attachments/assets/f4796fa6-6219-4800-9edf-ccd44b311761" />
 
 Dark Mode
 
-![Dark Mode](screenshots/05-dark-mode.png)
+<img width="1912" height="1012" alt="Image" src="https://github.com/user-attachments/assets/edf8269f-344c-4e77-a588-a0dbcff53dc1" />
 
 Trash
 
-![Trash](screenshots/06-trash.png)
+<img width="1917" height="1011" alt="Image" src="https://github.com/user-attachments/assets/2b6ea083-3dad-4426-8257-76b046ded361" />

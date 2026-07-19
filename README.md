@@ -81,7 +81,3 @@ Trash
 
 <img width="1917" height="1011" alt="Image" src="https://github.com/user-attachments/assets/2b6ea083-3dad-4426-8257-76b046ded361" />
 
-
----
-DOCUMENTATION:-
-[NexDo Documentation Internship.pdf](https://github.com/user-attachments/files/30162489/NexDo.Documentation.Internship.pdf)

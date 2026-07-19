@@ -89,9 +89,15 @@ Completed Tasks
 
 
 
+
+
+
 Dark Mode
 
 <img width="1912" height="1012" alt="Image" src="https://github.com/user-attachments/assets/edf8269f-344c-4e77-a588-a0dbcff53dc1" />
+
+
+
 
 
 

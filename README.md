@@ -53,5 +53,30 @@ Developed a responsive task management web application that enables users to cre
 - CSS3
 - JavaScript
 
-login page 
-<img width="1907" height="1010" alt="Image" src="https://github.com/user-attachments/assets/d6d42e06-b6c2-4f9e-9c54-3846b61472b1" />
+----  
+
+📸 Screenshots
+
+Login Screen
+
+"C:\Users\bibhu\Downloads\NexDo Screenshots\Trash.png")
+
+Dashboard
+
+![Dashboard](screenshots/02-dashboard.png)
+
+Add Task
+
+![Add Task](screenshots/03-add-task.png)
+
+Completed Tasks
+
+![Completed Tasks](screenshots/04-completed-tasks.png)
+
+Dark Mode
+
+![Dark Mode](screenshots/05-dark-mode.png)
+
+Trash
+
+![Trash](screenshots/06-trash.png)
